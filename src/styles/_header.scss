@@ -1,0 +1,43 @@
+
+:root{
+    font-size: 10px;
+}
+body{
+    font-family: "TT Norms";
+    background: #F5F5F5;
+
+}
+h1,h2,h3,p,ul,button,a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.nav{
+    font-family: "TT Norms";
+    display: flex;
+    background-color: rgb(2, 23, 52);
+    align-items: center;
+    height: 78px;
+    padding: 0px 14px;
+    justify-content: space-between;
+    &__links{
+        display: flex;
+        
+        align-items: center;
+    }
+    &__number{
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+        margin-left: 12px;
+    }
+    .soc-link{
+        width: 21px;
+        height: 21px;
+    }
+    .telegram{
+        margin-left: 3px;
+    }
+   
+}

@@ -1,0 +1,36 @@
+.economy{
+    padding: 39px 0px 44px 0px;
+    a{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-family: "Philosopher";
+        font-size: 2.1rem;
+        width: 346px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 1.4rem;
+        font-weight: 400;
+        width: 238px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 34px;
+    }
+    ul{
+        p{
+            width: 200px;
+            text-align: center;
+            line-height: 18px;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 34px;
+        }
+    }
+}

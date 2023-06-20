@@ -1,0 +1,114 @@
+.result{
+    &__title{
+        font-family: "Philosopher";
+        font-size: 2.1rem;
+        font-weight: 700;
+        margin-left: 14px;
+    }
+    &__item{
+        display:flex;
+        align-items: center;
+        >p{
+            font-weight: 300;
+            font-size: 1.4rem;
+            width: 150px;
+            line-height: 19px;
+        }
+        &:nth-child(3){
+            p{
+                width: 100px;
+            }
+        }
+    }
+    &__subtitle{
+        font-size: 1.4rem;
+        font-weight: 300;
+        line-height: 2.1rem;
+        margin-bottom: 25px;
+        margin-left: 14px;
+    }
+
+    .number{
+        font-family: "Philosopher";
+        font-size: 5.5rem;
+        font-weight: 700;
+        color: #487BDE;
+        margin-right: 14px;
+        margin-left: 14px;
+        >span{
+            font-size: 1.6rem;
+            font-family: "TT Norms";
+        }
+    }
+    &__slide{
+        width: 322px;
+        
+        border-radius: 15px;
+        height: 470px;
+        
+        padding-left: 28px;
+        padding-top: 28px;
+        margin: auto;
+        p:nth-child(2){
+            width: 200px;
+        }
+    }
+    &__client{
+        display: flex;
+        align-items: center;
+        margin-bottom: 11px;
+        >p{
+            margin-left: 10px;
+        }
+    }
+    &__text{
+        margin-top: 14px;
+        line-height: 1.8rem;
+        font-weight: 300;
+        font-size: 1.2rem;
+        width: 250px;
+    }
+    &__slider{
+        width: 322px;
+        margin: auto;
+        overflow: hidden;
+        box-shadow: 0px 0px 2px gray;
+    }
+    &__slider-btns{
+        width: 155px;
+        margin: auto;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        >button{
+            background: #E6EBF2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            border: none;
+            border-radius:50%;
+            &:hover{
+               cursor:pointer;
+            }
+            &:active{
+                border: 1px solid #497BDF;
+            }
+        }
+        svg{
+            width: 40px;
+            height: 40px;
+            fill: #212225;
+        }
+ 
+    }
+    
+}
+.slider-line{
+    display: flex;
+    transition: all ease 1s;
+    justify-content: space-between;
+    width: 100%;
+}
